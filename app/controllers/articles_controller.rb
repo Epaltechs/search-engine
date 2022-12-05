@@ -1,7 +1,7 @@
-class ArticleController < ApplicationController
+class ArticlesController < ApplicationController
 
    # GET /articles or /articles.json
-   def index
+  def index
     if params[:query].present?
       @articles = Article.where('title LIKE ? ', "#{params[:query]}%")
       SearchArticle.create(title: @articles[0].title)
