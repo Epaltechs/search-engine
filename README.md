@@ -42,4 +42,4 @@ Give a :star:️ if you like this project!
 - 🎩Hat tip to anyone whose code was used
 
 ## :memo: License
-This project is MIT licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
