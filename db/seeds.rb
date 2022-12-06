@@ -9,7 +9,7 @@
 Article.create(title: 'What is Search Engine?',
                body: 'Search engine evaluator as was formerly known, is now AI community surfer.')
 Article.create(title: 'What is IRB?',
-               body: 'IRB, short for Interactive Ruby, is a quick way to explore the Ruby programming language and try out code without creating a file.')
+               body: 'IRB is a quick way to explore the Ruby programming language and try out code.')
 Article.create(title: 'Who is a diplomat?',
                body: 'A dipLomat is someone who can tell you go to hell in a way that makes you look forward to going.')
 Article.create(title: 'Where do we come from?',
