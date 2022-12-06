@@ -1,6 +1,9 @@
 # Search Engine
 This is a real-time search box, where users search articles, and the analytics that display what users were searching for.
 
+## Screenshot
+![](./app/assets/images/search-screen.png)
+
 ## Built With
 - Ruby
 - Ruby on Rails
@@ -42,4 +45,4 @@ Give a :star:️ if you like this project!
 - 🎩Hat tip to anyone whose code was used
 
 ## :memo: License
-This project is MIT licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
