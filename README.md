@@ -10,6 +10,10 @@ This is a real-time search box, where users search articles, and the analytics t
 - PostgreSQL
 - Bootstrap
 
+## Live Demo
+
+Please click [here](https://epal-search-engine.onrender.com/) for live demo.
+
 ## Getting Started
 To launch the project locally:
 
