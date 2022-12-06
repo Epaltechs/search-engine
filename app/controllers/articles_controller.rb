@@ -1,12 +1,18 @@
 class ArticlesController < ApplicationController
+  before_action :set_article, only: %i[show edit update destroy]
 
-   # GET /articles or /articles.json
+  # GET /articles or /articles.json
   def index
-    if params[:query].present?
-      @articles = Article.where('title LIKE ? ', "#{params[:query]}%")
-      SearchArticle.create(title: @articles[0].title)
+    @articles = if params[:query].present?
+                  Article.where('title LIKE ? ', "#{params[:query]}%")
+                else
+                  Article.all
+                end
+
+    if turbo_frame_request?
+      render partial: 'articles', locals: { articles: @articles }
     else
-      @articles = Article.all
+      render :index
     end
   end
 

@@ -1,24 +1,45 @@
-# README
+# Search Engine
+This is a real-time search box, where users search articles, and the analytics that display what users were searching for.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Built With
+- Ruby
+- Ruby on Rails
+- PostgreSQL
+- Bootstrap
 
-Things you may want to cover:
+## Getting Started
+To launch the project locally:
 
-* Ruby version
+### Step 1:
+Clone this repo locally using git in the command line and the following command
+> https://github.com/Epaltechs/search-engine.git
+Alternatively, you can just download the complete zip file and extract the folder in your directory
 
-* System dependencies
+### Step 2:
+In the project directory, you can run:
+> ruby main.rb
+or alternatively you can copy and paste the commands in
+> irb
 
-* Configuration
+## 👤 Author
 
-* Database creation
+:bust_in_silhouette: **Emmanuel Paul**
+- GitHub: [@Epaltechs](https://github.com/Epaltechs)
+- LinkedIn: [Emmanuel Paul](https://www.linkedin.com/in/emmanuel-s-paul)
+- Twitter: [Emmanuel Paul](http://twitter.com/@emmapaul247)
+- AngeList: [Emmanuel Paul](https://angel.co/u/emmanuel-s-paul)
 
-* Database initialization
+## :handshake: Contributing
+- Contributions, issues, and feature requests are welcome!
+- Feel free to check the [issues page](https://github.com/Epaltechs/search-engine/issues).
 
-* How to run the test suite
+## Show your support
+Give a :star:️ if you like this project!
 
-* Services (job queues, cache servers, search engines, etc.)
+## Acknowledgments
+- Many thanks to Helpjuice community for the inspiration and the opportunity to be part of this test exercise.
 
-* Deployment instructions
+- 🎩Hat tip to anyone whose code was used
 
-* ...
+## :memo: License
+This project is MIT licensed.

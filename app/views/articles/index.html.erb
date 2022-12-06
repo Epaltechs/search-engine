@@ -13,8 +13,9 @@
     <% end %>
 </div>
 
-<div class="my-6">
-  <%= render "articles", articles: @articles %>
-</div>
-
-<%= link_to "Recent Input", new_article_path, class: "px-4 py-3 font-medium bg-orange-300 text-neutal-900 rounded inline-flex items-center cursor-pointer hover:bg-orange-400 focus:ring-4 ring-0 focus:ring-orange-100" %>
+ <div id="articles" class="articles-container mx-4">
+    <%= render "articles", articles: @articles  %>
+  </div>
+  <div class="container d-flex justify-content-between">
+    <%= link_to "New article", new_article_path, class: "btn btn-outline-success mx-5" %>
+  </div>
