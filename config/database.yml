@@ -87,6 +87,6 @@ production:
   <<: *default
   url: <%= ENV["DATABASE_URL"] %>
   database: Search_engine_production
-  # username: postgres
-  # password: Epal4postgres.
+  username: postgres
+  password: Epal4postgres.
   # password: <%= ENV["SEARCH_ENGINE_DATABASE_PASSWORD"] %>
