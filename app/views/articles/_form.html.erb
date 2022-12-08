@@ -13,7 +13,10 @@
 
   <div>
     <%= form.label :name, style: "display: block" %>
-    <%= form.text_field :name %>
+    <%= form.text_field :title, placeholder: "Article's title", class: "form-control" %>
+   <div class='mb-2 rounded'>
+    <%= form.text_area :body, placeholder: "Article's body", class: "form-control" %>
+   </div>
   </div>
 
   <div>
