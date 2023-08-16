@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe 'Articles', type: :request do
-  ddescribe '- test for Articles requests' do
+  describe '- test for Articles requests' do
     before(:all) do
       @article = Article.create(title: 'Article 1',
                                 body: 'Search engine evaluator as was formerly known, is now AI community surfer.')
@@ -22,7 +22,7 @@ RSpec.describe 'Articles', type: :request do
     it 'articles#create - should respond status created or (200)' do
       get new_article_path
       Article.create(title: 'Article 3',
-                     body: 'A dipLomat is someone who can tell you go to hell in a way')
+                     body: 'A diplomat is someone who can tell you go to hell in a way')
       expect(response).to have_http_status(200)
     end
   end
